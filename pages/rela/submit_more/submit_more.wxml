@@ -1,0 +1,18 @@
+<!--pages/rela/submit_more/submit_more.wxml-->
+<view class="flex solid-bottom padding justify-center">提交更多</view>
+<form>
+  <view class="cu-form-group margin-top">
+        <view class="title">其他信息</view>
+        <input placeholder="其他信息"></input>
+  </view>
+  <view class="cu-form-group margin-top">
+        <view class="title">其他信息</view>
+        <input placeholder="其他信息"></input>
+  </view>
+  <view class="cu-form-group margin-top">
+        <view class="title">其他信息</view>
+        <input placeholder="其他信息"></input>
+  </view>
+  <button class="cu-btn bg-green round shadow  margin-top grid" bindtap="submit">submit</button>
+      
+</form>

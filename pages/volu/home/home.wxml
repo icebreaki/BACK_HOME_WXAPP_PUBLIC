@@ -1,0 +1,25 @@
+<!--pages/volu/home/home.wxml-->
+<task wx:if="{{PageCur=='task'}}"></task>
+<map wx:if="{{PageCur=='map'}}"></map>
+<home wx:if="{{PageCur=='home'}}"></home>
+
+<view class="cu-bar tabbar bg-white shadow foot">
+  <view class="action" bindtap="NavChange" data-cur="home">
+    <view class='cuIcon-cu-image'>
+      <image src="/icon/home.jpeg"></image>
+    </view>
+    <view class="{{PageCur=='home'?'text-green':'text-gray'}}">home</view>
+  </view>
+  <view class="action" bindtap="NavChange" data-cur="task">
+    <view class='cuIcon-cu-image'>
+      <image src="/icon/task.jpeg"></image>
+    </view>
+    <view class="{{PageCur=='task'?'text-green':'text-gray'}}">task</view>
+  </view>
+  <view class="action" bindtap="NavChange" data-cur="map">
+    <view class='cuIcon-cu-image'>
+      <image src="/icon/map.jpeg"></image>
+    </view>
+    <view class="{{PageCur=='map'?'text-green':'text-gray'}}">map</view>
+  </view>
+</view>

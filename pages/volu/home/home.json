@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "task":"/pages/components/volu/task/task",
+    "home":"/pages/components/volu/home/home",
+    "map":"/pages/components/volu/map/map"
+  },
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "志愿者",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false
+}

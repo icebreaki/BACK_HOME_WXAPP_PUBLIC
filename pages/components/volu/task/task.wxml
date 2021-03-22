@@ -1,0 +1,88 @@
+<!--components/volu/task/task.wxml-->
+
+<view class="cu-card article ">
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">老人姓名</view>
+    </view>
+    <view class="content">
+      <image src="/icon/oldman.jpeg" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content">走失信息（简略）</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">紧急</view>
+          <view class="cu-tag bg-green light sm round">早期</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>  
+
+<view class="cu-card article">
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">老人姓名</view>
+    </view>
+    <view class="content">
+      <image src="/icon/oldman.jpeg" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content">走失信息（简略）</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">紧急</view>
+          <view class="cu-tag bg-green light sm round">早期</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>    
+<view class="cu-card article">
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">老人姓名</view>
+    </view>
+    <view class="content">
+      <image src="/icon/oldman.jpeg" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content">走失信息（简略）</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">紧急</view>
+          <view class="cu-tag bg-green light sm round">早期</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>  
+<view class="cu-card article">
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">老人姓名</view>
+    </view>
+    <view class="content">
+      <image src="/icon/oldman.jpeg" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content">走失信息（简略）</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">紧急</view>
+          <view class="cu-tag bg-green light sm round">早期</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>  
+<view class="cu-card article">
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">老人姓名</view>
+    </view>
+    <view class="content">
+      <image src="/icon/oldman.jpeg" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content">走失信息（简略）</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">紧急</view>
+          <view class="cu-tag bg-green light sm round">早期</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>  

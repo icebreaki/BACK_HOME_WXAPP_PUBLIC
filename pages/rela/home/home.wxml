@@ -1,0 +1,85 @@
+<!--pages/rela/home/home.wxml-->
+
+<view wx:if="{{PageCur=='report'}}">
+    <form>
+      <view class="cu-form-group margin-top">
+        <view class="title">姓名</view>
+        <input placeholder="老人姓名"></input>
+
+      </view>
+      <view class="cu-form-group">
+        <view class="title">年龄</view>
+        <input placeholder="老人年龄"></input>
+      </view>
+
+      <view class="cu-bar bg-white margin-top">
+		<view class="action">
+			老人照片
+		</view>
+		<view class="action">
+			{{imgList.length}}/4
+		</view>
+  </view>
+  <view class="cu-form-group">
+		<view class="grid col-4 grid-square flex-sub">
+			<view class="bg-img" wx:for="{{imgList}}" wx:key="{{index}}" bindtap="ViewImage" data-url="{{imgList[index]}}">
+				<image src='{{imgList[index]}}' mode='aspectFill'></image>
+				<view class="cu-tag bg-red" catchtap="DelImg" data-index="{{index}}">
+					<text class="cuIcon-close"></text>
+				</view>
+			</view>
+			<view class="solids" bindtap="ChooseImage" wx:if="{{imgList.length<4}}">
+				<text class="cuIcon-cameraadd"></text>
+			</view>
+		</view>
+	</view> 
+</form>
+
+<button class="cu-btn bg-green round shadow grid margin-top">提交</button>
+</view>
+
+<view wx:if="{{PageCur=='record'}}">
+  <view class="cu-card article ">
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">老人姓名</view>
+    </view>
+    <view class="content">
+      <image src="/icon/oldman.jpeg" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content">走失信息（简略）</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">紧急</view>
+          <view class="cu-tag bg-green light sm round">早期</view>
+          <button class="cu-btn bg-green round  shadow margin-top"bindtap="submit_more">提交更多信息</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>  
+
+
+</view>
+
+
+
+
+<view class="cu-bar tabbar bg-white shadow foot">
+  <view class="action" bindtap="NavChange" data-cur="record">
+    <view class='cuIcon-cu-image'>
+      <image src="/icon/record.jpeg"></image>
+    </view>
+    <view class="{{PageCur=='record'?'text-green':'text-gray'}}">record</view>
+  </view>
+  <view class="action text-gray add-action">
+    <button class="cu-btn cuIcon-add bg-green shadow" bindtap='report'></button>
+    立即报案
+</view>
+  <view class="action" bindtap="NavChange" data-cur="person">
+    <view class='cuIcon-cu-image'>
+      <image src="/icon/person.jpeg"></image>
+    </view>
+    <view class="{{PageCur=='person'?'text-green':'text-gray'}}">person</view>
+  </view>
+</view>
+
