@@ -5,7 +5,8 @@
 <view class="margin-tb-sm grid padding-sm">
   <button class="cu-btn round bg-blue shadow" bindtap="to_rela">我是家属</button>
 </view>
-<view class="margin-tb-sm grid">
+
+<view class="margin-tb-sm grid" >
   <button class="cu-btn round bg-blue shadow" bindtap="to_volu">我是志愿者</button>
 </view>
 

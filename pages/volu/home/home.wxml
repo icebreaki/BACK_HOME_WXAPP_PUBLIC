@@ -1,7 +1,10 @@
 <!--pages/volu/home/home.wxml-->
 <task wx:if="{{PageCur=='task'}}"></task>
-<map wx:if="{{PageCur=='map'}}"></map>
+<view wx:if="{{PageCur=='map'}}">
+    <map latitude="{{lat}}" longitude="{{long}}" style="width:100% ;height:100vh" markers="{{myloc}}"></map>
+</view>
 <home wx:if="{{PageCur=='home'}}"></home>
+
 
 <view class="cu-bar tabbar bg-white shadow foot">
   <view class="action" bindtap="NavChange" data-cur="home">

@@ -1,8 +1,7 @@
 {
   "usingComponents": {
     "task":"/pages/components/volu/task/task",
-    "home":"/pages/components/volu/home/home",
-    "map":"/pages/components/volu/map/map"
+    "home":"/pages/components/volu/home/home"
   },
   "navigationBarBackgroundColor": "#ffffff",
   "navigationBarTextStyle": "black",

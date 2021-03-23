@@ -10,6 +10,15 @@ Page({
 
  to_rela()
  {
+  var that=this
+  wx.getLocation({
+    success:function(res){
+      console.log(res)
+    },
+    else:function(res){
+      console.log(res)
+    }
+  })
     wx.navigateTo({
       url: '/pages/rela/home/home',
     })
